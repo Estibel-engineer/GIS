@@ -3,5 +3,4 @@ function greet(name = "stranger") {
   console.log(`[${now}] Hello, ${name}!`);
 }
 
-greet();
-greet("Clara");
+module.exports = greet;
