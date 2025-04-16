@@ -1,6 +1,7 @@
 function greet(name = "stranger") {
-  console.log(`Hello, ${name}!`);
+  const now = new Date().toLocaleTimeString();
+  console.log(`[${now}] Hello, ${name}!`);
 }
 
 greet();
-greet("Bob");
+greet("Clara");
